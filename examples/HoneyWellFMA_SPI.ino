@@ -7,7 +7,7 @@ HoneyWellFMA_SPI sensor2(54);
 
 void setup() 
 {
-  //start the sensor
+  //Always start each sensor
   sensor1.begin();
   sensor2.begin();
 }
